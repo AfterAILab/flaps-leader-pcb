@@ -7,7 +7,7 @@
 	(title_block
 		(title "AfterAI Flaps Leader")
 		(date "2024-09-11")
-		(rev "1.0.dev-1")
+		(rev "1.0.dev1")
 		(company "AfterAI Inc.")
 	)
 	(lib_symbols
@@ -10867,6 +10867,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19856735"
+			(at 250.19 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B"
 			(uuid "527e2d3c-501c-4db9-b1e8-1b2b0aeaf762")
 		)
@@ -12809,6 +12818,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C90761"
+			(at 82.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7c47f829-fa99-41e8-8fbb-2b97ae23a931")
 		)
@@ -13581,6 +13599,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2838502"
+			(at 238.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -17739,6 +17766,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C154797"
+			(at 207.01 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "808f4786-7940-456c-b8f6-6d4c23b53d2d")
 		)
@@ -18298,6 +18334,15 @@
 			)
 		)
 		(property "Description" "0.8A Ic, 25V Vce, NPN Transistor, SOT-23"
+			(at 207.01 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C154797"
 			(at 207.01 156.21 0)
 			(effects
 				(font

@@ -448,7 +448,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "leader.kicad_pro",
+    "filename": "Leader.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -605,7 +605,7 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
