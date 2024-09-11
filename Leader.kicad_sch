@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "AfterAI Flaps Leader")
-		(date "2024-08-29")
-		(rev "1.0.dev")
+		(date "2024-09-11")
+		(rev "1.0.dev-1")
 		(company "AfterAI Inc.")
 	)
 	(lib_symbols
@@ -6849,6 +6849,12 @@
 		(uuid "296c351d-710c-4708-bcda-656ff9ad5a8f")
 	)
 	(junction
+		(at 217.17 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36321285-2ba6-4c30-b6dc-01346513fd85")
+	)
+	(junction
 		(at 224.79 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6901,6 +6907,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76570106-3bf9-4c79-9692-5575a16947a1")
+	)
+	(junction
+		(at 260.35 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77213631-b14e-4451-b0a6-3f741b428519")
 	)
 	(junction
 		(at 229.87 66.04)
@@ -7562,6 +7574,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 106.68) (xy 261.62 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dc85bf8-3554-4e15-a700-04e9e96327a8")
+	)
+	(wire
+		(pts
 			(xy 92.71 130.81) (xy 92.71 129.54)
 		)
 		(stroke
@@ -7632,7 +7654,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 106.68) (xy 257.81 106.68)
+			(xy 256.54 106.68) (xy 260.35 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8342,7 +8364,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 121.92) (xy 220.98 121.92)
+			(xy 207.01 121.92) (xy 217.17 121.92)
 		)
 		(stroke
 			(width 0)
@@ -8472,7 +8494,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 109.22) (xy 273.05 109.22)
+			(xy 273.05 109.22) (xy 274.32 109.22)
 		)
 		(stroke
 			(width 0)
@@ -8732,7 +8754,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 109.22) (xy 265.43 109.22)
+			(xy 256.54 109.22) (xy 267.97 109.22)
 		)
 		(stroke
 			(width 0)
@@ -8979,6 +9001,16 @@
 			(type default)
 		)
 		(uuid "b8afcfb7-83b7-41bc-8a23-068d46f0f13c")
+	)
+	(wire
+		(pts
+			(xy 217.17 121.92) (xy 220.98 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b996347f-a4a0-4984-84e8-3acf0ce0042e")
 	)
 	(wire
 		(pts
@@ -10010,7 +10042,7 @@
 		(uuid "b4506451-df9c-4063-abf0-79123267c8e0")
 	)
 	(label "A5{slash}SCL"
-		(at 257.81 106.68 0)
+		(at 261.62 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10324,7 +10356,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00bf42fb-6870-4c16-8186-b658bbd05b2d")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 259.08 151.13 0)
 			(effects
 				(font
@@ -10374,7 +10406,7 @@
 		(instances
 			(project "leader"
 				(path "/3e6df37b-d512-4c66-98b7-ac402904e438"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -10590,15 +10622,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 267.97 109.22 270)
+		(at 270.51 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "132e5a0c-9f09-431d-a485-c529912f2840")
-		(property "Reference" "R10"
-			(at 267.97 104.648 90)
+		(property "Reference" "R13"
+			(at 270.51 104.648 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10606,7 +10638,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 267.97 106.68 90)
+			(at 270.51 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10614,7 +10646,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 267.97 109.22 0)
+			(at 270.51 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10623,7 +10655,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.97 109.22 0)
+			(at 270.51 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10632,7 +10664,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.97 109.22 0)
+			(at 270.51 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10641,7 +10673,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 267.97 109.22 0)
+			(at 270.51 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10658,7 +10690,7 @@
 		(instances
 			(project "leader"
 				(path "/3e6df37b-d512-4c66-98b7-ac402904e438"
-					(reference "R10")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -10674,7 +10706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1402c038-75a2-4628-bfb9-ce9483ac1aea")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR043"
 			(at 265.43 22.86 0)
 			(effects
 				(font
@@ -10725,7 +10757,7 @@
 		(instances
 			(project "splitflappcb"
 				(path "/3e6df37b-d512-4c66-98b7-ac402904e438"
-					(reference "#PWR041")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -10974,6 +11006,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 260.35 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e6363d9-891e-448e-bf3e-1ea7e25a8bb3")
+		(property "Reference" "#PWR040"
+			(at 260.35 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 264.414 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 260.35 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4825b84-3683-4011-80af-7c6b0c4c9c66")
+		)
+		(instances
+			(project "Leader"
+				(path "/3e6df37b-d512-4c66-98b7-ac402904e438"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 267.97 154.94 270)
 		(unit 1)
@@ -10983,7 +11080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e83df47-0f1f-40db-b135-5188fc0597cf")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 267.97 149.86 90)
 			(effects
 				(font
@@ -10991,7 +11088,7 @@
 				)
 			)
 		)
-		(property "Value" "51.1"
+		(property "Value" "120"
 			(at 267.97 152.4 90)
 			(effects
 				(font
@@ -11017,7 +11114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Calculated the value based on the LED datasheet and the desired settings, i.e. i=10mA and Vled=1.8V"
 			(at 267.97 154.94 0)
 			(effects
 				(font
@@ -11026,7 +11123,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3015638"
+		(property "LCSC" "C25079"
 			(at 267.97 154.94 0)
 			(effects
 				(font
@@ -11044,7 +11141,7 @@
 		(instances
 			(project "leader"
 				(path "/3e6df37b-d512-4c66-98b7-ac402904e438"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -11592,7 +11689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f07e899-457e-44bb-91c6-97690aa840ce")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR042"
 			(at 262.89 50.8 0)
 			(effects
 				(font
@@ -11642,7 +11739,7 @@
 		(instances
 			(project "splitflappcb"
 				(path "/3e6df37b-d512-4c66-98b7-ac402904e438"
-					(reference "#PWR040")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -12124,7 +12221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fe4e089-1059-4079-af86-b6174080cf28")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 229.87 73.66 0)
 			(effects
 				(font
@@ -12174,7 +12271,7 @@
 		(instances
 			(project ""
 				(path "/3e6df37b-d512-4c66-98b7-ac402904e438"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -12758,7 +12855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5279d1fa-4757-41e0-8f1b-22ce676ca57c")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 257.81 102.87 0)
 			(effects
 				(font
@@ -12808,7 +12905,7 @@
 		(instances
 			(project "splitflappcb"
 				(path "/3e6df37b-d512-4c66-98b7-ac402904e438"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -13163,7 +13260,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c6bcd29-e109-403c-99cc-6534718565d0")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR047"
 			(at 281.94 115.57 0)
 			(effects
 				(font
@@ -13213,7 +13310,7 @@
 		(instances
 			(project "leader"
 				(path "/3e6df37b-d512-4c66-98b7-ac402904e438"
-					(reference "#PWR045")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -13732,7 +13829,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc" "C68234"
+		(property "LCSC" "C5383108"
 			(at 218.44 55.88 0)
 			(effects
 				(font
@@ -13800,15 +13897,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 273.05 109.22 0)
+		(at 274.32 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6556bc47-a9fb-477b-a8e2-84d15299ad5f")
-		(property "Reference" "#PWR042"
-			(at 273.05 113.03 0)
+		(property "Reference" "#PWR044"
+			(at 274.32 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13817,7 +13914,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 273.05 105.156 0)
+			(at 274.32 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13825,7 +13922,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 109.22 0)
+			(at 274.32 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13834,7 +13931,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 109.22 0)
+			(at 274.32 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13843,7 +13940,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 273.05 109.22 0)
+			(at 274.32 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13857,7 +13954,7 @@
 		(instances
 			(project "leader"
 				(path "/3e6df37b-d512-4c66-98b7-ac402904e438"
-					(reference "#PWR042")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -14658,6 +14755,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 260.35 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8295ae51-5ed8-430e-be07-443328399d64")
+		(property "Reference" "R11"
+			(at 257.556 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 257.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 260.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "External pull-up resistor is necessary for SDA and SCL lines, otherwise I2C bus is easily blocked."
+			(at 260.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 260.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd4d6d04-7775-4217-a8dd-f599f97defe6")
+		)
+		(pin "2"
+			(uuid "056384d8-dcef-47c5-8f98-a032841274fd")
+		)
+		(instances
+			(project "Leader"
+				(path "/3e6df37b-d512-4c66-98b7-ac402904e438"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 25.4 133.35 0)
 		(unit 1)
@@ -15083,7 +15256,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94b2b8e5-b4ef-435a-a455-9f34c39f4928")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 276.86 107.442 90)
 			(effects
 				(font
@@ -15144,7 +15317,72 @@
 		(instances
 			(project "leader"
 				(path "/3e6df37b-d512-4c66-98b7-ac402904e438"
-					(reference "R12")
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 217.17 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94f0723c-98ea-4500-88b3-771fc7a0f751")
+		(property "Reference" "#PWR034"
+			(at 217.17 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 213.868 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 217.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36580891-4449-4efa-a5a0-5ab2da255d36")
+		)
+		(instances
+			(project "Leader"
+				(path "/3e6df37b-d512-4c66-98b7-ac402904e438"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -15522,7 +15760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0dc4b03-c177-44ee-b17c-a109cd83b630")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR048"
 			(at 281.94 163.83 0)
 			(effects
 				(font
@@ -15572,7 +15810,7 @@
 		(instances
 			(project "leader"
 				(path "/3e6df37b-d512-4c66-98b7-ac402904e438"
-					(reference "#PWR046")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -15666,7 +15904,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3ed5742-4b7c-4b04-bc17-3409dca0a984")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 219.71 88.9 0)
 			(effects
 				(font
@@ -15716,7 +15954,7 @@
 		(instances
 			(project "leader"
 				(path "/3e6df37b-d512-4c66-98b7-ac402904e438"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -17106,7 +17344,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca3af828-0265-42ca-96e0-2f1186aebc34")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 238.76 151.13 0)
 			(effects
 				(font
@@ -17156,7 +17394,7 @@
 		(instances
 			(project "leader"
 				(path "/3e6df37b-d512-4c66-98b7-ac402904e438"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -17172,7 +17410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbef9e4b-e92f-44ee-89d1-0acc26dc80a2")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR045"
 			(at 276.86 69.85 0)
 			(effects
 				(font
@@ -17222,7 +17460,7 @@
 		(instances
 			(project "splitflappcb"
 				(path "/3e6df37b-d512-4c66-98b7-ac402904e438"
-					(reference "#PWR043")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -17624,7 +17862,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d59ef593-1c0e-4e61-a8a4-1501fad974c1")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR041"
 			(at 261.62 138.43 0)
 			(effects
 				(font
@@ -17674,7 +17912,7 @@
 		(instances
 			(project "leader"
 				(path "/3e6df37b-d512-4c66-98b7-ac402904e438"
-					(reference "#PWR039")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -17822,7 +18060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1450cc5-507e-431b-b7aa-7a328fd94ff4")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR046"
 			(at 276.86 81.28 0)
 			(effects
 				(font
@@ -17872,7 +18110,7 @@
 		(instances
 			(project "splitflappcb"
 				(path "/3e6df37b-d512-4c66-98b7-ac402904e438"
-					(reference "#PWR044")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -18515,6 +18753,82 @@
 			(project "leader"
 				(path "/3e6df37b-d512-4c66-98b7-ac402904e438"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 217.17 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa0392ed-0b03-4b9d-b536-1d3a83de1dee")
+		(property "Reference" "R10"
+			(at 214.376 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 214.63 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 217.17 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "External pull-up resistor is necessary for SDA and SCL lines, otherwise I2C bus is easily blocked."
+			(at 217.17 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 217.17 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce1ac294-8219-4a3f-a105-73257183ffb9")
+		)
+		(pin "2"
+			(uuid "96b48e89-5660-4526-8a5e-d9d959ad250b")
+		)
+		(instances
+			(project "Leader"
+				(path "/3e6df37b-d512-4c66-98b7-ac402904e438"
+					(reference "R10")
 					(unit 1)
 				)
 			)
