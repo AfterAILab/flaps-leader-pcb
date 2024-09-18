@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "AfterAI Flaps Leader")
-		(date "2024-09-11")
-		(rev "1.0.dev1")
+		(date "2024-09-18")
+		(rev "1.0.0")
 		(company "AfterAI Inc.")
 	)
 	(lib_symbols
@@ -11097,7 +11097,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "10k"
 			(at 267.97 152.4 90)
 			(effects
 				(font
@@ -11123,7 +11123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Calculated the value based on the LED datasheet and the desired settings, i.e. i=10mA and Vled=1.8V"
+		(property "Description" "Found this value through trial and error"
 			(at 267.97 154.94 0)
 			(effects
 				(font
@@ -11132,7 +11132,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25079"
+		(property "LCSC" "C60490"
 			(at 267.97 154.94 0)
 			(effects
 				(font
