@@ -1,11 +1,14 @@
 # AfterAI Flaps Leader PCB
 
-## Tagging Rules
+This repository is part of the [AfterAI Flaps](https://afterai.dev/flaps) project.
+You can purchase AfterAI Flaps goods at [AfterAI's online store](https://shop.afterai.dev). 
 
-- Tags should follow the following convensions: `Major.Minor.Kind`, where `Kind = dev | prod`
-- You have to make tag a commit when placing an order to a PCB factory
-- You have to have a working sample tag before creating a production tag
-- The commit with a tag must have the updated artifacts in the `production` directory
-  - You can generate them with the Fabrications Toolkit plugin for KiCad.
+## How to Order a PCB
 
+You can order a PCB from [JLCPCB](https://jlcpcb.com).
+You need to create a gerber file from the KiCad project. You can use the [Fabrication Toolkit](https://github.com/afterai-dev/flaps-fabrication-toolkit) to create the gerber file.
 ![Fabrication toolkit in Kicad8](./images/FabricationToolkitInKiCad8.png)
+
+## How to Upload Program to the PCB
+
+https://afterai.dev/Zettelkasten/How+to+Upload+Program+to+AfterAI+Flaps+Leader
