@@ -3,6 +3,11 @@
 This repository is part of the [AfterAI Flaps](https://afterai.dev/flaps) project.
 You can purchase AfterAI Flaps goods at [AfterAI's online store](https://shop.afterai.dev). 
 
+## Software Repositories
+
+- [flaps-avr](https://github.com/AfterAILab/flaps-avr) - Firmware for the AVR microcontroller
+- [flaps-esp32](https://github.com/AfterAILab/flaps-esp) - Firmware for the ESP32 microcontroller
+
 ## How to Order a PCB
 
 You can order a PCB from [JLCPCB](https://jlcpcb.com).
